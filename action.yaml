@@ -40,4 +40,5 @@ runs:
     - '--ignore-unfixed=${{ inputs.ignore-unfixed }}'
     - '--severity=${{ inputs.severity }}'
     - '--output=${{ inputs.output }}'
+    - '--timeout=${{ inputs.timeout }}'
     - '${{ inputs.image-ref }}'
