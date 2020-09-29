@@ -29,6 +29,10 @@ inputs:
     description: 'writes results to a file with the specified file name'
     required: false
     default: ''
+  timeout:
+    description: 'sets a timeout limit for the action'
+    required: false
+    default: '2m0s'
 runs:
   using: 'docker'
   image: 'docker://docker.io/aquasec/trivy:latest'
